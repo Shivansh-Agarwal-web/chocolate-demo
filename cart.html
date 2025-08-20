@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart - Choco Bliss</title>
+    <meta name="description" content="Review your order of premium, handcrafted chocolates from Choco Bliss. Proceed to our simple WhatsApp checkout.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Choco Bliss</a>
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="products.html">Our Chocolates</a>
+                <a href="index.html#about">About</a>
+                <a href="cart.html" class="cart-link active">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header-section">
+            <div class="container">
+                <h1 class="section-title">Your Shopping Cart</h1>
+            </div>
+        </section>
+
+        <section class="cart-section">
+            <div class="container">
+                <div class="cart-layout">
+
+                    <!-- Left Side: Cart Items -->
+                    <div class="cart-items-container">
+                        <div class="cart-items">
+                            <!-- Cart items will be dynamically inserted here by main.js -->
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Order Summary & Checkout -->
+                    <div class="order-summary">
+                        <h2>Order Summary</h2>
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span class="cart-total-amount">₹0.00</span>
+                        </div>
+                        <div class="summary-row total-row">
+                            <span>Total</span>
+                            <span class="cart-total-amount">₹0.00</span>
+                        </div>
+                        
+                        <div class="checkout-form">
+                            <h3>Your Details</h3>
+                            <div class="form-group">
+                                <label for="customer-name">Full Name</label>
+                                <input type="text" id="customer-name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="customer-address">Delivery Address</label>
+                                <textarea id="customer-address" placeholder="Enter your complete address" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="customer-phone">WhatsApp Number</label>
+                                <input type="tel" id="customer-phone" placeholder="Enter your WhatsApp number" required>
+                            </div>
+                            <button id="whatsapp-checkout-btn" class="btn checkout-btn">
+                                <i class="fab fa-whatsapp"></i> Place Order on WhatsApp
+                            </button>
+                            <p class="checkout-note">You will be redirected to WhatsApp to send your order. Payment will be arranged via chat.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Choco Bliss</div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Chocolates</a>
+                    <a href="index.html#about">About</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Choco Bliss. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
