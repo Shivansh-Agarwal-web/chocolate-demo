@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choco Bliss - Premium Handcrafted Chocolates</title>
+    <meta name="description" content="Discover an exquisite collection of artisanal chocolates from Choco Bliss. Handcrafted with the finest ingredients for the ultimate indulgence. Order online via WhatsApp and track your delivery.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Choco Bliss</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="products.html">Our Chocolates</a>
+                <a href="#about">About</a>
+                <a href="cart.html" class="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="slideshow">
+                <div class="slide" style="background-image: url('https://image.pollinations.ai/prompt/cinematic%20shot%20of%20luxurious%20dark%20chocolate%20truffles%20dusted%20with%20cocoa%20powder,%20rich%20and%20decadent');"></div>
+                <div class="slide" style="background-image: url('https://image.pollinations.ai/prompt/cinematic%20shot%20of%20creamy%20milk%20chocolate%20bar%20with%20whole%20roasted%20almonds,%20elegant');"></div>
+                <div class="slide" style="background-image: url('https://image.pollinations.ai/prompt/cinematic%20shot%20of%20assorted%20artisan%20chocolate%20bonbons%20with%20intricate%20designs,%20vibrant');"></div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="fade-in">Experience True Indulgence</h1>
+                <p class="fade-in-delay">Discover our exquisite collection of handcrafted chocolates, made with passion and the world's finest ingredients.</p>
+                <a href="products.html" class="btn fade-in-delay-2">Explore the Collection</a>
+            </div>
+        </section>
+
+        <section id="featured-products" class="featured-products-section">
+            <div class="container">
+                <h2 class="section-title">Our Signature Collection</h2>
+                <div class="product-grid">
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/beautiful%20photo%20of%20dark%20chocolate%20bar%20with%20sea%20salt%20flakes%20on%20a%20marble%20surface" alt="Velvet Noir Sea Salt Bar" onerror="this.onerror=null;this.src='https://placehold.co/400x300/5D4037/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Velvet Noir Sea Salt</h3>
+                            <p class="product-description">A rich, 72% dark chocolate bar, perfectly balanced with a hint of flaky sea salt.</p>
+                            <p class="product-price">₹350</p>
+                            <button class="btn add-to-cart-btn" data-id="1" data-name="Velvet Noir Sea Salt" data-price="350" data-image="https://image.pollinations.ai/prompt/beautiful%20photo%20of%20dark%20chocolate%20bar%20with%20sea%20salt%20flakes%20on%20a%20marble%20surface">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/beautiful%20photo%20of%20milk%20chocolate%20truffles%20filled%20with%20caramel%20oozing%20out" alt="Golden Caramel Truffles" onerror="this.onerror=null;this.src='https://placehold.co/400x300/AF8C72/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Golden Caramel Truffles</h3>
+                            <p class="product-description">Silky milk chocolate shells filled with a smooth, flowing salted caramel center.</p>
+                            <p class="product-price">₹450 (Box of 6)</p>
+                            <button class="btn add-to-cart-btn" data-id="2" data-name="Golden Caramel Truffles" data-price="450" data-image="https://image.pollinations.ai/prompt/beautiful%20photo%20of%20milk%20chocolate%20truffles%20filled%20with%20caramel%20oozing%20out">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/beautiful%20photo%20of%20white%20chocolate%20bar%20with%20pistachios%20and%20rose%20petals" alt="Pistachio Rose Delight" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E91E63/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Pistachio Rose Delight</h3>
+                            <p class="product-description">Creamy white chocolate beautifully blended with roasted pistachios and delicate rose petals.</p>
+                            <p class="product-price">₹380</p>
+                            <button class="btn add-to-cart-btn" data-id="3" data-name="Pistachio Rose Delight" data-price="380" data-image="https://image.pollinations.ai/prompt/beautiful%20photo%20of%20white%20chocolate%20bar%20with%20pistachios%20and%20rose%20petals">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="view-all-link">
+                    <a href="products.html" class="btn secondary">View All Chocolates</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Crafted with Passion</h2>
+                        <p>At Choco Bliss, we believe chocolate is an art form. Our journey began with a simple mission: to create the most exquisite chocolates using only the purest ingredients. We partner with ethical cocoa farms and handcraft every single piece in small batches to ensure unparalleled quality and freshness.</p>
+                        <p>Our online store makes it simple for you to order these luxuries. With our easy WhatsApp checkout and online order tracking, a moment of pure indulgence is just a click away.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://image.pollinations.ai/prompt/chocolatier%20artisan%20carefully%20decorating%20a%20chocolate%20bonbon" alt="Chocolatier crafting chocolates" onerror="this.onerror=null;this.src='https://placehold.co/600x500/5D4037/FFFFFF?text=Artisan';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Choco Bliss</div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Chocolates</a>
+                    <a href="#about">About</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Choco Bliss. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
