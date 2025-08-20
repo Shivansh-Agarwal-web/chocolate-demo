@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Chocolates - Choco Bliss</title>
+    <meta name="description" content="Explore our full collection of premium, handcrafted chocolates. From dark sea salt bars to creamy milk chocolate truffles, find your perfect indulgence.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Choco Bliss</a>
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Our Chocolates</a>
+                <a href="index.html#about">About</a>
+                <a href="cart.html" class="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header-section">
+            <div class="container">
+                <h1 class="section-title">Our Artisanal Collection</h1>
+            </div>
+        </section>
+
+        <section class="products-page-section">
+            <div class="container">
+                <div class="product-grid">
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20dark%20chocolate%20bar%20with%20flaky%20sea%20salt" alt="Velvet Noir Sea Salt Bar" onerror="this.onerror=null;this.src='https://placehold.co/400x300/5D4037/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Velvet Noir Sea Salt</h3>
+                            <p class="product-description">A rich, 72% dark chocolate bar, perfectly balanced with a hint of flaky sea salt.</p>
+                            <p class="product-price">₹350</p>
+                            <button class="btn add-to-cart-btn" data-id="1" data-name="Velvet Noir Sea Salt" data-price="350" data-image="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20dark%20chocolate%20bar%20with%20flaky%20sea%20salt">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/professional%20photo%20of%20milk%20chocolate%20truffles%20filled%20with%20oozing%20caramel" alt="Golden Caramel Truffles" onerror="this.onerror=null;this.src='https://placehold.co/400x300/AF8C72/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Golden Caramel Truffles</h3>
+                            <p class="product-description">Silky milk chocolate shells filled with a smooth, flowing salted caramel center.</p>
+                            <p class="product-price">₹450 (Box of 6)</p>
+                            <button class="btn add-to-cart-btn" data-id="2" data-name="Golden Caramel Truffles" data-price="450" data-image="https://image.pollinations.ai/prompt/professional%20photo%20of%20milk%20chocolate%20truffles%20filled%20with%20oozing%20caramel">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20white%20chocolate%20bar%20with%20pistachios%20and%20rose%20petals" alt="Pistachio Rose Delight" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E91E63/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Pistachio Rose Delight</h3>
+                            <p class="product-description">Creamy white chocolate beautifully blended with roasted pistachios and delicate rose petals.</p>
+                            <p class="product-price">₹380</p>
+                            <button class="btn add-to-cart-btn" data-id="3" data-name="Pistachio Rose Delight" data-price="380" data-image="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20white%20chocolate%20bar%20with%20pistachios%20and%20rose%20petals">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/professional%20photo%20of%20rich%20chocolate%20fudge%20brownies%20with%20walnuts" alt="Classic Walnut Brownie" onerror="this.onerror=null;this.src='https://placehold.co/400x300/5D4037/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Classic Walnut Brownie</h3>
+                            <p class="product-description">A decadent and fudgy dark chocolate brownie, generously studded with crunchy walnuts.</p>
+                            <p class="product-price">₹200</p>
+                            <button class="btn add-to-cart-btn" data-id="4" data-name="Classic Walnut Brownie" data-price="200" data-image="https://image.pollinations.ai/prompt/professional%20photo%20of%20rich%20chocolate%20fudge%20brownies%20with%20walnuts">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20box%20of%20assorted%20luxury%20chocolates" alt="Artisan's Choice Box" onerror="this.onerror=null;this.src='https://placehold.co/400x300/AF8C72/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Artisan's Choice Box</h3>
+                            <p class="product-description">A curated selection of our 12 most popular and exquisite handcrafted bonbons.</p>
+                            <p class="product-price">₹950 (Box of 12)</p>
+                            <button class="btn add-to-cart-btn" data-id="5" data-name="Artisan's Choice Box" data-price="950" data-image="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20box%20of%20assorted%20luxury%20chocolates">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20raspberry%20dark%20chocolate%20bar" alt="Raspberry Radiance" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E91E63/FFFFFF?text=Chocolate';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Raspberry Radiance</h3>
+                            <p class="product-description">Intense dark chocolate infused with the tart and fruity essence of real raspberries.</p>
+                            <p class="product-price">₹360</p>
+                            <button class="btn add-to-cart-btn" data-id="6" data-name="Raspberry Radiance" data-price="360" data-image="https://image.pollinations.ai/prompt/professional%20photo%20of%20a%20raspberry%20dark%20chocolate%20bar">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Choco Bliss</div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Chocolates</a>
+                    <a href="index.html#about">About</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Choco Bliss. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
